@@ -10,12 +10,48 @@
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	
+<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#budowacrt'), 500); });
+			$('#link2').click(function() { $.scrollTo($('#zasadacrt'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#maskicrt'), 500); });
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+	
+		
+	
+	
 </head>
 <body>
-	<div id="logo"> Wykład #1: Monitory komputerowe</div>
+	<div id="logo"> Wykład #1: Monitory komputerowe ś</div>
 	
 	<div id="container">
+		
+		<a href="#" class="scrollup"></a>
 	
 		<div id="spis">
 		
@@ -23,11 +59,11 @@
 				<li>
 					Monitory kineskopowe
 					<ul>
-						<li>Budowa monitora</li>
-						<li>Zasada działania</li>
-						<li><a href="maskicrt">Maska. Rodzaje masek</a></li>
-						<li>Wady i zalety</li>
-						<li>Dobór parametrów</li>
+						<li><a id="link1" href="#">Budowa monitora</a></li>
+						<li><a id="link2" href="#">Zasada działania</a></li>
+						<li><a id="link3" href="#">Maska. Rodzaje masek</a></li>
+						<li><a id="link4" href="#">Wady i zalety</a></li>
+						<li><a id="link5" href="#">Dobór parametrów</a></li>
 					</ul>
 				</li>
 				
@@ -123,7 +159,7 @@
 		
 		<div class="slajd">
 		
-			<h1 id="maskicrt">Rodzaje masek w monitorach CRT</h1>
+			<h1 id="maskicrt"> Rodzaje masek w monitorach CRT</h1>
 			
 			Przed warstwą luminoforu znajduje się tzw. <strong>maska</strong> (ang. shadow mask), która pełni funkcję filtru dbającego o to, aby elektrony uderzały idealnie w powierzchnię wyznaczonych pól luminoforu (subpikseli) - co pozytywnie wpływa na jakość obrazu.
 			<br /><br />
@@ -597,6 +633,7 @@
 		
 		
 	</div>
+	<div id ="bottom">STRONA WYKONANA W KURSIE HTML MIROSŁAWA ZELENTA</div>
 	
 </body>
 </html>
