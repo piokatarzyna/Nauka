@@ -23,7 +23,7 @@
 	</header>
 			<main>
 				<article>
-					<form action="order.php" method="post">
+					<form action="order.php" method="post" enctype="multipart/form-data">
 					
 					<div class="row">
 						<fieldset>
@@ -95,9 +95,47 @@
 					</div>
 					
 					<div class="row">
+						<label>Adres e-mail <input type="email" name="adres" required></label>
+						<label>Numer telefonu <input type="tel" name="telefon" required></label>
+					</div>
+
+					<div class="row">
+						<label> Data dostawy <input type="date" name="dzień" ></label>
+						<label> Preferowany czas dostawy <input type="time" name="czas" step="1" min="09:00" max="18:00"></label>
+					</div>
+					
+					<div class="row">
+						<div><label for="komentarz"> Uwagi do zamówienia </label></div>
+						<textarea name="komentarz" id="komentarz" rows="4" cols="80" maxlength="25" minlength="10"></textarea>
+					</div>
+					
+					<div class="row">
+						<label>Prześlij zdjęcie poprzedniego samochodu</label> <input type="file" name="obraz" accept="image/x-png,image/gif,image/jpeg">
+					</div>
+					
+					<div class="row">
+							<label> Kolor lakieru <input type="color" name="kolor" value="#ff0000"</label>
+					</div>
+					
+					<div class="row">
+							<label> Stopień realizacji zamówienia </label> <progress max="100" value="25"> </progress>
+					</div>
+
+					<div class="row">
+							<label> Stopień zatankowania samochodu </label> <meter min="0" max="100" title="procent" value="30" low="30" high="70" optimum="75"></meter>
+					</div>
+					
+					<div class="row">
+							<label> Twoja strona www </label> <input type="url" name="witryna">
+					</div>
+					
+					<input type="hidden" name="token" value="ffsssssssssftkgkoro">
+					
+					<div class="row">
 						<input type="submit" value="Zamawiam"> 
-						<input type="button" value="Zamawiam"> 
-						<button>Zamawiam</button>
+						<!--<input type="button" value="Zamawiam"> 
+						<button>Zamawiam</button>-->
+					
 					</div>
 					
 					</form>

@@ -27,3 +27,8 @@ h1
 	display: inline-block;
 	margin: 0px 50px;
 }
+
+#komentarz
+{
+	resize: none;
+}
