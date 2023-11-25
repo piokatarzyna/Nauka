@@ -1,0 +1,271 @@
+body
+
+{
+	background-color: #efefef;
+	color: #29201B;
+	font-size: 15px;
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+.rectangle1
+{
+	width: 1000px;
+}
+
+.rectangle11
+{
+	width: 250px;
+	float: left;
+}
+
+.rachunek
+{
+	background-color:	#8C8C8C;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 19px;
+}
+
+.dane
+{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.nr
+{
+	background-color:	#8C8C8C;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 19px;
+	text-align: right;
+}
+
+.data
+{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: right;
+}
+
+#rectangle12
+{
+	width: 350px;
+	float: right;
+}
+
+.Kielce
+{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#rectangle2
+{
+	width: 500px;
+	float: right;
+	padding-top: 130px;
+}
+
+.odbiorca
+{
+	background-color:	#8C8C8C;
+	font-size: 19px;
+	border: 1px solid black;
+	border-right: none;
+}
+
+.adres
+{
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.rectangle31
+{
+	width: 500px;
+	float: left;
+	padding-top: 100px;
+	height: 40px;
+}
+
+.sprzedawca
+{
+	border: 1px solid black;
+	border-left: none;
+	background-color:	#8C8C8C;
+	width: 500px;
+	float: left;
+	font-size: 19px;
+}
+
+.adress
+{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 500px;
+}
+
+.nabywca
+{
+	border: 1px solid black;
+	border-right: none;
+	background-color:	#8C8C8C;
+	width: 500px;
+	float: left;
+	font-size: 19px;
+}
+
+.rectangle41
+{
+	width: 499px;
+	float: left;
+	border-top: 1px solid black;
+	margin-top: 100px;
+}
+
+.jeden
+{
+	background-color:	#8C8C8C;
+	font-size: 19px;
+	height: 30px;
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.dwa
+{
+	height: 30px;
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+}
+
+.trzy
+{
+	height: 27px;
+	border-bottom: 1px solid black;
+}
+
+.rectangle42
+{
+	width: 100px;
+	float: left;
+	border-left: 1px solid black;
+	margin-top: 100px;
+	border-top: 1px solid black;
+}
+
+.jm1
+{
+	background-color:	#8C8C8C;
+	font-size: 19px;
+	height: 30px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.jm2
+{
+	height: 30px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding-top: 5px;
+	text-align: center;
+	
+}
+
+.jm3
+{
+	height: 27px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.rectangle43
+{
+	width: 199px;
+	float: left;
+	margin-top: 100px;
+	border-top: 1px solid black;
+}
+
+.cj1
+{
+	background-color:	#8C8C8C;
+	font-size: 19px;
+	height: 30px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.cj2
+{
+	height: 30px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding-top: 5px;
+	text-align: right
+	
+}
+
+.cj3
+{
+	height: 27px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.cj4
+{
+	height: 27px;
+	border: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 19px;
+	text-align: right;
+}
+
+#rectangle5
+{
+	width: 1000px;
+	margin-top: 100px;
+	height: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color:	#8C8C8C;
+	font-size: 19px;
+	padding-top: 5px;
+}
+
+#rectangle6
+{
+	width: 650px;
+	float: right;
+	margin-top: 150px;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+.rectangle61
+{
+	margin-top: 100px;
+	height: 20px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	font-size: 19px;
+	padding-top: 5px;
+	text-align: center;
+	float: right;
+}
