@@ -123,119 +123,29 @@ body
 	font-size: 20px;
 }
 
-.rectangle41
+#tabela
 {
-	width: 499px;
-	float: left;
-	border-top: 1px solid black;
 	margin-top: 100px;
 }
 
-.jeden
+table,tr,td
 {
-	background-color:	#8C8C8C;
-	font-size: 20px;
-	height: 30px;
-	border-bottom: 1px solid black;
-	text-align: center;
-	padding: 10px;
-}
-
-.dwa
-{
-	height: 30px;
-	border-bottom: 1px solid black;
-	padding-top: 5px;
-}
-
-.trzy
-{
-	height: 27px;
-	border-bottom: 1px solid black;
-}
-
-.rectangle42
-{
-	width: 100px;
-	float: left;
-	border-left: 1px solid black;
-	margin-top: 100px;
-	border-top: 1px solid black;
-}
-
-.jm1
-{
-	background-color:	#8C8C8C;
-	font-size: 20px;
-	height: 30px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	text-align: center;
-	padding: 10px;
-
-}
-
-.jm2
-{
-	height: 30px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	padding-top: 5px;
-	text-align: center;
-	
-}
-
-.jm3
-{
-	height: 27px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-}
-
-.rectangle43
-{
-	width: 199px;
-	float: left;
-	margin-top: 100px;
-	border-top: 1px solid black;
-}
-
-.cj1
-{
-	background-color:	#8C8C8C;
-	font-size: 20px;
-	height: 30px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	text-align: center;
-	padding: 10px;
-
-}
-
-.cj2
-{
-	height: 30px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	padding-top: 5px;
-	text-align: right
-	
-}
-
-.cj3
-{
-	height: 27px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-}
-
-.cj4
-{
-	height: 27px;
 	border: 1px solid black;
-	border-bottom: 1px solid black;
-	font-size: 20px;
-	text-align: right;
+	border-collapse: collapse;
+	height: 30px;
+}
+
+h2
+{
+	padding: 10px;
+	text-align: center;
+	font-size: 22px;
+}
+
+h3
+{
+	padding: 10px;
+	font-size: 18px;
 }
 
 #rectangle5
